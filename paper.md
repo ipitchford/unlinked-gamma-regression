@@ -120,8 +120,7 @@ everywhere they are defined, including outside the common real domain of
 the original moment-generating functions.
 
 At the pole $t=1/s$, the residue
-of [\[eq:derivative\]](#eq:derivative){reference-type="eqref"
-reference="eq:derivative"} is $$-\sum_{i:a_i=s}\alpha_i.$$ Every summand
+of [5](#eq:derivative) is $$-\sum_{i:a_i=s}\alpha_i.$$ Every summand
 before the minus sign is positive. Thus the pole cannot cancel, and its
 residue determines the aggregate shape at $s$. Equality of poles and
 residues gives equality of the measures. This argument concerns the
@@ -162,16 +161,14 @@ $\{0\}$.*
 ::: proof
 *Proof.* Theorem [2.1](#thm:invariant) forces every nonzero effective scale in an
 alternative representation to be one of the $s_j$, and forces
-precisely [\[eq:allocation\]](#eq:allocation){reference-type="eqref"
-reference="eq:allocation"}. Its converse shows that all such allocations
+precisely [6](#eq:allocation). Its converse shows that all such allocations
 work. Each label has at most $k+1$ destinations, which proves
 finiteness.
 
 If a coefficient is zero, that coordinate can be omitted. We allow the
 empty subvector and empty sum, so this includes the zero response when
 $d=1$. If every coefficient is nonzero, the total mass
-of [\[eq:measure\]](#eq:measure){reference-type="eqref"
-reference="eq:measure"} equals $A=\sum_i\alpha_i$. Any linear
+of [3](#eq:measure) equals $A=\sum_i\alpha_i$. Any linear
 combination of a proper subvector has active measure of total mass at
 most the sum of that subvector's shapes, which is strictly below $A$. It
 cannot have the same law. The same mass argument shows that every
@@ -182,8 +179,7 @@ This notion of minimality does not permit replacing the dictionary by
 different Gamma variables or splitting its components into additional
 independent variables. For a particular response, labeled uniqueness is
 equivalent to the existence of exactly one feasible allocation
-in [\[eq:allocation\]](#eq:allocation){reference-type="eqref"
-reference="eq:allocation"}. The uniform criteria below concern all
+in [6](#eq:allocation). The uniform criteria below concern all
 responses for the given dictionary.
 
 # A minimal counterexample {#sec:counterexample}
@@ -231,8 +227,7 @@ multiplicities. The subsets need not contain the same labels.
 **Theorem 4.1** (Sharp uniform criterion). *For a fixed positive shape
 dictionary, the following statements are equivalent:*
 
-1.  *Condition [\[eq:SR\]](#eq:SR){reference-type="eqref"
-    reference="eq:SR"} holds.*
+1.  *Condition [SR](#eq:SR) holds.*
 
 2.  *For every $\beta\in\mathbb R^d$,
     $\mathcal B(\beta)=H_\alpha\beta$.*
@@ -242,10 +237,9 @@ dictionary, the following statements are equivalent:*
 :::
 
 ::: proof
-*Proof.* Suppose [\[eq:SR\]](#eq:SR){reference-type="eqref"
-reference="eq:SR"} holds. Equivalent representations assign equal total
+*Proof.* Suppose [SR](#eq:SR) holds. Equivalent representations assign equal total
 shape to each nonzero scale.
-By [\[eq:SR\]](#eq:SR){reference-type="eqref" reference="eq:SR"}, the
+By [SR](#eq:SR), the
 constituent shape multisets at that scale agree. Match equal-shape
 indices within each scale block. The unused indices also have matching
 shape multisets because the full dictionary is fixed. These matches give
@@ -254,7 +248,7 @@ independent coordinates leaves their joint law unchanged. This proves
 (i)$\Rightarrow$(ii), and (ii)$\Rightarrow$(iii) is immediate.
 
 For the contrapositive of (iii)$\Rightarrow$(i),
-suppose [\[eq:SR\]](#eq:SR){reference-type="eqref" reference="eq:SR"}
+suppose [SR](#eq:SR)
 fails. Remove the common indices from a witnessing pair of subsets. The
 resulting sets $U,V$ are disjoint, nonempty, have equal total shape, and
 have different shape multisets. Write $C$ for their complement and set
@@ -275,7 +269,7 @@ equivalence. ◻
 
 If $\lambda_1,\ldots,\lambda_r$ are the distinct shapes and
 $m_1,\ldots,m_r$ their multiplicities,
-condition [\[eq:SR\]](#eq:SR){reference-type="eqref" reference="eq:SR"}
+condition [SR](#eq:SR)
 is equivalently injectivity of $$\begin{equation}
 \label{eq:counts}
  (n_1,\ldots,n_r)\longmapsto\sum_{\ell=1}^r n_\ell\lambda_\ell
@@ -286,7 +280,7 @@ $\sum_\ell z_\ell\lambda_\ell=0$. To see the converse formulation, use
 the positive and negative parts of $z$ as subset multiplicities.
 
 Repeated shapes are compatible
-with [\[eq:SR\]](#eq:SR){reference-type="eqref" reference="eq:SR"}:
+with [SR](#eq:SR):
 every iid Gamma dictionary satisfies it, as does $(1,1,3)$. Rational
 independence of the distinct shape values is sufficient but unnecessary.
 Pairwise distinct shapes alone are insufficient: for $(1,2,3)$ the
@@ -340,9 +334,8 @@ $\beta_i/\sqrt{\alpha_i}=\beta_j/\sqrt{\alpha_j}$. ◻
 # Finite cumulants and an optimal cutoff {#sec:reconstruction}
 
 Write $\kappa_n(Y)$ for the $n$th cumulant of $Y$. For the
-model [\[eq:model\]](#eq:model){reference-type="eqref"
-reference="eq:model"}, differentiation
-of [\[eq:cgf\]](#eq:cgf){reference-type="eqref" reference="eq:cgf"}
+model [1](#eq:model), differentiation
+of [4](#eq:cgf)
 gives $$\begin{equation}
 \label{eq:cumulants}
  c_n(\beta):=\frac{\kappa_n(Y_\beta)}{(n-1)!}
@@ -385,12 +378,10 @@ $$\begin{equation}
  \sum_{j=0}^{k-1}q_jm_{\ell+j}=-m_{\ell+k},\qquad 0\le\ell<k.
 \end{equation}$$ The monic polynomial $Q(z)=z^k+\sum_{j=0}^{k-1}q_jz^j$
 vanishes at each $s_j$:
-equation [\[eq:prony\]](#eq:prony){reference-type="eqref"
-reference="eq:prony"} is a Vandermonde system for the quantities
+equation [10](#eq:prony) is a Vandermonde system for the quantities
 $w_js_j^2Q(s_j)$. Recover the weights $w_js_j^2$ from the first $k$
 moments, divide by $s_j^2$, and solve the finite allocation
-equations [\[eq:allocation\]](#eq:allocation){reference-type="eqref"
-reference="eq:allocation"}.
+equations [6](#eq:allocation).
 
 For the counterexample, $(c_2,c_3,c_4,c_5)=(10,18,34,66)$ and
 $$H_2=\begin{pmatrix}10&18\\18&34\end{pmatrix},\qquad
@@ -437,9 +428,7 @@ $z^{d-1}$, gives $$\begin{equation}
  \sum_{i=1}^d\frac{(i^2)^k}{Q'(i^2)}=
  \begin{cases}0,&0\le k\le d-2,\\1,&k=d-1.\end{cases}
 \end{equation}$$ The first case is empty when $d=1$.
-Equations [\[eq:lowerconstruction\]](#eq:lowerconstruction){reference-type="eqref"
-reference="eq:lowerconstruction"}--[\[eq:lagrange\]](#eq:lagrange){reference-type="eqref"
-reference="eq:lagrange"} imply
+Equations [11](#eq:lowerconstruction)--[12](#eq:lagrange) imply
 $$\sum_i\alpha_i a_i^{2k+3}=0\quad(0\le k\le d-2),\qquad
  \sum_i\alpha_i a_i^{2d+1}=1.$$ Reflection preserves every even
 cumulant. The odd cumulants of orders $3,5,\ldots,2d-1$ vanish by the
@@ -451,8 +440,7 @@ are minimal by Theorem [2.2](#thm:fiber).
 
 Finally, choose a positive integer $L$ clearing all denominators of the
 rational shapes
-in [\[eq:lowerconstruction\]](#eq:lowerconstruction){reference-type="eqref"
-reference="eq:lowerconstruction"}. Replace $\alpha_i$ by $L\alpha_i$,
+in [11](#eq:lowerconstruction). Replace $\alpha_i$ by $L\alpha_i$,
 retain the effective scales $a_i$, and recompute the coefficients as
 $\sqrt{L\alpha_i}\,a_i$. Every normalized cumulant is multiplied by $L$,
 preserving the cancellation and the first discrepancy. This gives
@@ -469,8 +457,7 @@ signs. The reflected examples belong to different distributional fibers.
 :::
 
 For $d=3$, multiplying the shapes
-in [\[eq:lowerconstruction\]](#eq:lowerconstruction){reference-type="eqref"
-reference="eq:lowerconstruction"} by $1080$ gives
+in [11](#eq:lowerconstruction) by $1080$ gives
 $$\alpha=(45,9,1),\qquad a=(1,-2,3),\qquad
  \beta=(3\sqrt5,-6,3),\qquad\widetilde\beta=-\beta.$$ The first
 distinguishing cumulant has order seven:
@@ -501,17 +488,16 @@ dictionary. For $c,e\in\mathbb R$, $$Y_\beta+cZ\overset{d}{=}Y_\gamma+eZ
 
 ::: proof
 *Proof.* The logarithmic derivative of the joint transform
-is [\[eq:derivative\]](#eq:derivative){reference-type="eqref"
-reference="eq:derivative"} plus $c^2t$. Comparing poles and residues
+is [5](#eq:derivative) plus $c^2t$. Comparing poles and residues
 again identifies $\mu_\beta$, since the added polynomial has no poles.
 Subtracting the now identical Gamma terms identifies $c^2$. The converse
 follows from equality of the transforms near zero. ◻
 :::
 
-Under [\[eq:SR\]](#eq:SR){reference-type="eqref" reference="eq:SR"}, the
+Under [SR](#eq:SR), the
 only ambiguities are equal-shape Gamma permutations and the Gaussian
 sign. Every fiber is finite even
-without [\[eq:SR\]](#eq:SR){reference-type="eqref" reference="eq:SR"}.
+without [SR](#eq:SR).
 For several independent standard Gaussian coordinates, the Gaussian part
 determines only the squared coefficient norm; a nonzero norm then gives
 a continuous ambiguity. If a single Gaussian has known mean $\eta\ne0$
@@ -583,7 +569,7 @@ The results distinguish three questions: recovering a distributional
 aggregate, allocating that aggregate to a fixed predictor dictionary,
 and reconstructing it from finitely many cumulants. Minimality excludes
 unused predictors but does not guarantee unique allocation.
-Condition [\[eq:SR\]](#eq:SR){reference-type="eqref" reference="eq:SR"}
+Condition [SR](#eq:SR)
 is the exact uniform replacement for signed-permutation identification
 in the Gamma model. Finite ambiguity holds without that condition.
 
@@ -625,8 +611,8 @@ reproduction instructions. No empirical or personal data are used.
 Original prose and data are released under CC0-1.0 and original code
 under MIT. Supplied third-party review files are not redistributed.
 Repository: <https://github.com/ipitchford/unlinked-gamma-regression>.
-The version-specific archive identifier is recorded in the release
-metadata.
+Version 0.1.0-candidate archive:
+<https://doi.org/10.5281/zenodo.22858495>.
 
 ## References
 

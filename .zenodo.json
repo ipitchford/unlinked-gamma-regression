@@ -1,0 +1,29 @@
+{
+  "title": "Unlinked Gamma regression: exact identifiability and optimal cumulant order",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "<p>Unrefereed candidate by Anonymous. Complete population identification for a fixed known dictionary of independent centered standardized Gamma predictors: finite allocation fibers, a minimal counterexample, a sharp subset-sum criterion, and an optimal worst-case consecutive cumulant cutoff for signed coefficients.</p><p>Written proofs and finite exact producer checks; internal model editorial review. No authenticated external peer review, formal verification, validated finite-sample estimator or exhaustive historical-priority claim. Original prose/data CC0-1.0; original code MIT. Supplied third-party reviews are not redistributed.</p>",
+  "creators": [
+    {
+      "name": "Anonymous"
+    }
+  ],
+  "version": "0.1.0-candidate",
+  "publication_date": "2026-09-20",
+  "access_right": "open",
+  "license": "cc-zero",
+  "keywords": [
+    "unlinked regression",
+    "Gamma distributions",
+    "identifiability",
+    "cumulants",
+    "Prony method"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ipitchford/unlinked-gamma-regression/releases/tag/v0.1.0-candidate",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

@@ -9,3 +9,5 @@ Read `paper.pdf` or `paper.md`; the full source is `paper.tex`. Run `python3 -S 
 The checks cover 2,055 vectors and rational lower-bound identities for dimensions 1–20, plus four rejected semantic mutations. They supplement the written general proofs. They do not establish external reproduction, formal verification, numerical stability, statistical rates, or exhaustive novelty.
 
 See STATUS.md, ASSURANCE.md, PROVENANCE.md, RESPONSE_TO_REVIEW.md, CLAIMS.json and LICENSES.md. Rebuild PDF with `latexmk -pdf -interaction=nonstopmode paper.tex`; TeX Live 2026 was used. Layout may vary on other TeX versions.
+
+Version archive: https://doi.org/10.5281/zenodo.22858495 (reserved DOI before publication; canonical published status is recorded in the external release receipt).
