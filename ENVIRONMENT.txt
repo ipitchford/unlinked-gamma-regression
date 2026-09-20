@@ -1,0 +1,1 @@
+Python >=3.10, standard library only. Producer: Python 3.14.7, macOS. PDF: TeX Live 2026, latexmk; lmodern, microtype, amsmath/amsthm, mathtools, booktabs, enumitem, hyperref, fancyhdr. Markdown generated with Pandoc. No claim of bit-reproducible PDF builds.

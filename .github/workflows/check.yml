@@ -1,0 +1,22 @@
+name: Exact candidate checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.11', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python verify_manifest.py
+      - run: python -S reproduce.py > /tmp/normal.json
+      - run: python -O -S reproduce.py > /tmp/optimized.json
+      - run: diff -u evidence/replay.json /tmp/normal.json && diff -u /tmp/normal.json /tmp/optimized.json

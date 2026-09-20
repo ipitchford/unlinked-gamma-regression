@@ -1,0 +1,36 @@
+{
+  "status": "unrefereed-candidate",
+  "assumptions": "Known fixed positive shapes; independent centered standardized Gamma predictors; real coefficients. Extension hypotheses as stated separately.",
+  "claims": [
+    {
+      "id": "C1",
+      "location": "Theorems 2.1\u20132.2",
+      "statement": "Equality of laws iff equal positive atomic shape measures on nonzero signed scales; complete finite allocation fibers; fixed-subvector minimality iff full support.",
+      "evidence": "Written proof, finite supporting checks; no formal verification"
+    },
+    {
+      "id": "C2",
+      "location": "Section 3",
+      "statement": "The fixed dictionary (1,1,2) has two minimal coefficient vectors not related by signed permutations.",
+      "evidence": "Written proof, finite supporting checks; no formal verification"
+    },
+    {
+      "id": "C3",
+      "location": "Theorem 4.1",
+      "statement": "Equal subset sums determine constituent shape multisets iff every minimal representation is identifiable up to signed permutations; all fibers then equal shape-preserving orbits.",
+      "evidence": "Written proof, finite supporting checks; no formal verification"
+    },
+    {
+      "id": "C4",
+      "location": "Theorems 5.1\u20135.2",
+      "statement": "Cumulants 2 through 2d+1 identify the law and fiber; the cutoff is worst-case optimal over dictionaries with signed coefficients, with the same dictionary on both sides of each witness.",
+      "evidence": "Written proof, finite supporting checks; no formal verification"
+    },
+    {
+      "id": "C5",
+      "location": "Section 6",
+      "statement": "One independent Gaussian adds only sign ambiguity; the specified analytic convolution families inherit the classification with variance normalization.",
+      "evidence": "Written proof, finite supporting checks; no formal verification"
+    }
+  ]
+}

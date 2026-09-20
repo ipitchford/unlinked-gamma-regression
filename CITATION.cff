@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Cite this unrefereed candidate with its exact version."
+title: "Unlinked Gamma regression: exact identifiability and optimal cumulant order"
+authors:
+  - name: Anonymous
+version: 0.1.0-candidate
+date-released: 2026-09-20
+license: CC0-1.0
+repository-code: https://github.com/ipitchford/unlinked-gamma-regression
